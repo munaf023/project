@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(155, 0, 251);
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.374);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left:65px ;
+    color: white;
+    font-size: 100px;
+}
+.menu a{
+    color: white;
+    font-size: 45px;
+    padding-right: 65px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+}
+.right{
+    /* height: 80%; */
+    width: 50%;
+    /* background-color: #831616; */
+    padding-left: 80px;
+}
+h1{
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    padding-top: 380px;
+}
+p{
+    color: white;
+    font-size: 30px;
+}
+.icon a{
+    font-size: 40px;
+
+}
+.icon{
+    padding: 45px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 40px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(243, 12, 239);
+    position: absolute;
+    animation-name: box;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes box {
+    from{
+        left: 0;
+    }
+     
+    to{
+        left: 85%;
+        background-color: rgb(230, 14, 14);
+        rotate: 360deg;
+    }
+    
+}
+.left{
+    padding: 10%;
+}
+.button{
+    height: 55px;
+    width: 200px;
+    background-color: black;
+    padding-left: 25px;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.button a{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-decoration: none;
+    background-color: black;
+}
