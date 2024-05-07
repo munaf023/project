@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8F7F4;
+    font-family: "Source Serif 4", Georgia, serif;
+}
+nav{
+    padding-top: 10px;
+    width: 100%;
+    background-color: #F8F7F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-left: 40px;
+    font-size: 16px;
+    line-height: 0;
+    font-weight: 400; 
+}
+.right i{
+    position: absolute;
+    right: 29%;
+    top: 3.3%;
+}
+.logo img{
+    padding-left: 100px;
+    height: 40%;
+    width: 60%; 
+}
+.right input{
+    width: 60%;
+    padding: 0 45px 0 60px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: 50px;
+}
+.right button{
+    padding: 12px;
+    border-radius: 100px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.right span{
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+}
+#search,
+.bar {
+  display: none;
+}
+#checkbtn {
+  display: none;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page1 p{
+    width: 23%;
+    border-radius: 70px;
+    padding: 10px;
+    background-color: darksalmon;
+    font-weight: 550;
+}
+.page1 h1{
+    padding-top: 40px;
+    letter-spacing: -0.5px;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+.page1 h5{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.page1 button{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.page2{
+    padding-top: 30px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.elem img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 5px;
+}
+.elem{
+    margin-right: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anime{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.page3{
+    width: 100%;
+    /* background-color: burlywood; */
+    position: relative;
+    padding: 40px;
+    padding-top: 80px;
+}
+.page3 h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.box1{
+    width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+}
+.box1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.box-bottom{
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.556));
+    position: absolute;
+    bottom: -40%;
+    transition: all ease 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.box1:hover .box-bottom{
+    bottom: 0;
+}
+.box-bottom h5{
+    background: none;
+    font-size: 20px;
+    color: white;
+}
+.box-bottom h6{
+    /* margin-top: 25px; */
+    color: black;
+}
+.box-bottom i{
+    padding: 8px 9px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 100px;
+}
+.page4{
+    padding-left: 600px;
+    padding-bottom: 200px;
+}
+.page4 h3{
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    width: 25%;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 100px;
+    border: 2px solid;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.page5{
+    height: 80vh;
+    width: 100%;
+    background-color: #FFDA79;
+    text-align: center;
+    padding-top: 70px;
+    font-size: "Source Serif 4", Georgia, serif;
+}
+.page5 h2{
+    font-size: "Source Serif 4", Georgia, serif;
+    font-size: 64px;
+    font-weight: 300;
+    background: none;
+    color: #0D0C22;
+    padding-bottom: 20px;
+}
+.page5 p{
+    font-size: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background: none;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.page5 button{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+#btn2{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+.page5 h4{
+    font-size: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background: none;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.page5 h4 u{
+    background: none;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+}
+.footer img{
+    padding-top: 20px;
+    height: 100px;
+    padding-right: 80px;
+}
+ol{
+    padding-top: 20px;
+    padding-right: 90px;
+    display: flex;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.icons i{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
