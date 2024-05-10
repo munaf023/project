@@ -1,0 +1,124 @@
+@media (min-width: 375px) { 
+    .nav{
+        width: 100%;
+    }
+    .ad-box{
+        padding: 10px;
+    }
+    .ad-box h4{
+        font-size: 18px;
+    }
+    .nav h1{
+        padding-top: 10px;
+        font-size: 35px;
+    }
+    .firstbtn{
+        margin-right: 20px;
+        padding: 5px;
+    }
+
+    /* page: 1; */
+    .page1{
+        padding-top: 15px;
+        display: flex;
+    }
+    .page1 img{
+        width: 500px;
+        height: 500px;
+        padding-right: 50px;
+    }
+    .page1 p i{
+        font-size: 15px;
+        display: none;
+    }
+    .page1 p{
+        /* font-family: "gilroy"; */
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: end;
+        color:#4B5563;
+        padding-right: 120px;
+        /* padding-left: 50px; */
+    }
+    .text1{
+        display: none;
+        flex-direction: column;
+        /* padding-left: 200px; */
+        padding-top: 50px;
+    }
+    .head{
+        padding-top: 35px;
+        text-align: center;
+    }
+    .head p{
+        padding-bottom: 15px;
+        color: #14433DB2;
+    }
+    .main{
+        position: relative;
+        display: flex;
+    }
+    .boex1 img{
+        height: 15px;
+    }
+    .main img{
+        padding-top: 60px;
+        padding-left: 50px;
+
+        /* height: 20px; */
+    }
+    .main h1{
+        padding-top: 10px;
+        padding-left: 55px;
+        color: #14433D;
+    }
+    .main h4{
+        padding-top: 10px;
+        padding-left: 55px;
+        color: #2E7D73;
+        font-weight: 300;
+    }
+    .img-1{
+        height: 500px;
+        width: 480px;
+        padding-bottom: 50px;
+    }
+    .star1 img{
+        position: absolute;
+    }
+    .star1 h5{
+        padding-top: 100px;
+        font-size: 25px;
+        color: white;
+        position: absolute;
+        left: 5.5%;
+    }
+    .pill{
+        left: 20%;
+    }
+    .main-left{
+        flex-direction: column;
+        float: right;
+        position: absolute;
+        left: 54%;
+        bottom: 1%;
+    }
+    .btn3{
+        margin-top: 40px;
+        margin-left: 650px;
+        padding: 20px;
+        background: #FF6459;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+    }
+    #tbtn3{
+        text-align: center;
+        padding-top: 15px;
+        margin: 0px;
+    
+    }
+}
